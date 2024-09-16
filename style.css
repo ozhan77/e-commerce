@@ -1,17 +1,28 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-size: 14px;
+    color: #1f1f1f;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+nav{
+
 }
 h1{
     background-color: blue;
 }
 ul{
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+}
+li{
+    display: inline;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 a{
     text-decoration: none;
@@ -20,17 +31,14 @@ a:link {
     color: black;
   }
   
-  /* visited link */
   a:visited {
     color: black;
   }
   
-  /* mouse over link */
   a:hover {
     color: black;
   }
-  
-  /* selected link */
+
   a:active {
     color: black;
   }
